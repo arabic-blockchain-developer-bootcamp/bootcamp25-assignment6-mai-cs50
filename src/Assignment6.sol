@@ -3,7 +3,7 @@ pragma solidity ^0.8.13;
 
 contract Assignment6 {
     // 1. Declare an event called `FundsDeposited` with parameters: `sender` and `amount`
-    event FundsDeposited (adress indexed sender, uint amount);
+    event FundsDeposited (address indexed sender, uint amount);
 
     // 2. Declare an event called `FundsWithdrawn` with parameters: `receiver` and `amount`
     event FundsWithdrawn (address indexed receiver, uint amount);
